@@ -1,0 +1,18 @@
+application~ Giza
+app_version~ 1.0.3.18 
+os~ Windows XP Service Pack 2
+os_version~ 5.1.2600
+processors~ 1
+physical_ram_total~ 351.48 MB
+physical_ram_current~ 72.22 MB
+virtual_ram_total~ 2047.88 MB
+virtual_ram_current~ 1949.86 MB
+dx_version~ 4.9.0.904
+renderer~ gfx2d_dx8.dll
+desktop~ 800x600x32
+fullscreen~ 1
+exception_code~ ACCESS_VIOLATION
+fault_address~ 004037C7 01:000027C7 C:\Documents and Settings\All Users\Documents\HAWA\Giza_RA_ Beta\game.exe
+call_stack~
+004037C7 FFFFFFFF 0001:000027C7 C:\Documents and Settings\All Users\Documents\HAWA\Giza_RA_ Beta\game.exe [000001e7]
+

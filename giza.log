@@ -1,0 +1,219 @@
+3/26/2026 16:34:23
+//=====================================================//
+[ MainThread ] Client MainThread successfully registered.
+[ MainThread ] Giza 1.0.3.18 
+[ MainThread ] CommandLine Arguments:
+[ MainThread ]    
+[ MainThread ] Memory: Allocated heap: Main Memory [32]
+[ MainThread ] Memory: Allocated heap: Image Memory [32]
+[ MainThread ] Memory: Allocated heap: Graphics Memory [32]
+[ MainThread ] Memory: Allocated hunk: Scene Graph Blt Pool [1310720]
+[ MainThread ] Memory: Allocated hunk: Graphics Events [16384]
+[ MainThread ] Memory: Allocated hunk: DX8 Command Stream [131072]
+[ MainThread ] Memory: Allocated hunk: Particle System Memory [2097152]
+[ MainThread ] Memory: Allocated heap: Sound Memory [32]
+[ MainThread ] Memory: Allocated hunk: Music Memory [32]
+[ MainThread ] Memory: Allocated heap: UI Memory [32]
+[ MainThread ] Memory: Allocated hunk: 3d Sound Memory [15728640]
+[ MainThread ] Memory: Allocated heap: Game Memory [32]
+[ MainThread ] Memory: Allocated heap: Physics Entities [32]
+[ MainThread ] Memory: Allocated hunk: Physics Collisions [262144]
+[ MainThread ] Total Memory Allocated: [19546368]
+[ MainThread ] CPU Detection...
+[ MainThread ] ...Manufacturer: Intel Corporation
+[ MainThread ] ...Processor: Pentium III
+[ MainThread ] ...Features:
+[ MainThread ] ......FPU
+[ MainThread ] ......MMX
+[ MainThread ] ......SSE
+[ MainThread ] ......SSE2
+[ MainThread ] Ending CPU Detection
+[ MainThread ] 
+[ MainThread ] Beginning Main Loop...
+[ MainThread ] Testing for Hardware Acceleration...
+[ MainThread ] ...Direct3DCreate8(): Success!
+[ MainThread ] ...GetAdapterCount(): 1
+[ MainThread ] Hardware Acceleration Found!
+[ MainThread ] 
+[ MainThread ] ...RegisterClass(): Success!
+[ MainThread ] ...CreateWindow(): Success!
+[ MainThread ] Touching Memory: 2 ms
+[ MainThread ] 
+[ MainThread ] Initializing DirectX Graphics 8...
+[ MainThread ] ...Direct3DCreate8(): Success!
+[ MainThread ] ...GetAdapterCount(): 1
+[ MainThread ] .....Description: Intel(R) UHD Graphics
+[ MainThread ] ........Driver: igdumdim32.dll
+[ MainThread ] ........Version: 32.0.101.7085
+[ MainThread ] ........Desktop: 2560x1600x32 240 hz
+[ MainThread ] ........GetAdapterModeCount(): 104
+[ MainThread ] ...GetDesktopInfo( 1707x1067x32 )
+[ MainThread ] ...TestMode( 800, 600, 32, fullscreen ): 240 hzSuccess!
+[ MainThread ] ...CreateDevice(): Success!
+[ MainThread ] ...CheckDeviceFormat( D3DFMT_A8R8G8B8 ): Success!
+[ MainThread ] ...CheckDeviceFormat( D3DFMT_A4R4G4B4 ): Success!
+[ MainThread ] ...CreateVertexBuffer( 4000 ): Success!
+[ MainThread ] DirectX Graphics 8 Initialized!
+[ MainThread ] 
+[ MainThread ] 
+[ MainThread ] Initializing FMOD...
+[ MainThread ] ...FSOUND_SetOutput(): Success!
+[ MainThread ] ...FSOUND_SetDriver( 0 ): Success!
+[ MainThread ] ...FSOUND_GetDriverName(): Primary Sound Driver
+[ MainThread ] ...FSOUND_SetMixer(): Success!
+[ MainThread ] ...FSOUND_SetMemorySystem( 15728640 ): Success!
+[ MainThread ] ...FSOUND_SetMinHardwareChannels( 32 ): Success!
+[ MainThread ] ...FSOUND_Init( 44100, 64 ): Success!
+[ MainThread ] ...IDirectSound::GetCaps(): Success!
+[ MainThread ] ...Min Sample Rates: 100 200000
+[ MainThread ] FMOD Initialized!
+[ MainThread ] 
+[ MainThread ] loadSoundLibrary(  data/music/music.sl3 )
+[ MainThread ] loadSoundLibrary(  data/sound/sounds.sl3 )
+[ MainThread ] ...Creating Sample( data/sound/collapse_1.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/collapse_2.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/collapse_3.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/collapse_4.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/collapse_5.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/collide_spheres_path.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/collide_spheres_shot.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/launch_sphere.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/button_click.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/button_highlight.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/catch_coin.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/catch_gem.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/catch_powerup_fireball.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/catch_powerup_lightning.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/catch_powerup_wild.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/catch_powerup_shot_speed.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/catch_powerup_color_bomb.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/collapse_scarab.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/launch_wild.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/spawn_coin.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/spawn_gem.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/spawn_powerup.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/catch_powerup_reverse.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/catch_powerup_slow.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/catch_powerup_stop.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/launch_fireball.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/launch_lightning.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/collapse_fireball.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/warning.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/bonus_scarab_collapse.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/bonus_scarab_move.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/progress_complete.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/bullet_reload.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/bullet_swap.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/level_complete.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/game_over.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/game_win.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/foul.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/level_intro.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/dialog_extro.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/dialog_intro.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/high_score.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/extra_life.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/spheres_roll.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/stage_complete.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/spawn_new_group.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/new_record.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/score_tally.ogg ): Success
+[ MainThread ] ...Creating Sample( data/sound/level_advance.ogg ): Success
+[ WorkerMain ] Client WorkerMain successfully registered.
+[ WorkerHS ] Client WorkerHS successfully registered.
+[ WorkerMain ] Thread WorkerMain successfully registered
+[ WorkerMain ] Thread WorkerMain successfully unregistered
+[ MainThread ] Total Load Time: 4394
+[ MainThread ] LoadSprite: File Not Found: "data\sprites\main\button_moregames.spr"
+[ MainThread ] 
+[ MainThread ] Shutting Down DirectX Graphics 8...
+[ MainThread ] ...Release( s_polyVertexBuffer ): Success!
+[ MainThread ] ...Release( IDirect3DDevice8 ): Success(0)
+[ MainThread ] ...GetCount( IDirect3D8 ): 1
+[ MainThread ] ...Release( IDirect3D8 ): Success!
+[ MainThread ] DirectX Graphics 8 Terminated!
+[ MainThread ] 
+[ MainThread ] ...DestroyWindow(): Success!
+[ MainThread ] ...UnregisterClass(): Success!
+[ MainThread ] ...Releasing Sample( data/sound/level_advance.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/score_tally.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/new_record.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/spawn_new_group.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/stage_complete.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/spheres_roll.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/extra_life.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/high_score.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/dialog_intro.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/dialog_extro.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/level_intro.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/foul.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/game_win.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/game_over.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/level_complete.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/bullet_swap.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/bullet_reload.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/progress_complete.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/bonus_scarab_move.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/bonus_scarab_collapse.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/warning.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/collapse_fireball.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/launch_lightning.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/launch_fireball.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/catch_powerup_stop.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/catch_powerup_slow.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/catch_powerup_reverse.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/spawn_powerup.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/spawn_gem.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/spawn_coin.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/launch_wild.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/collapse_scarab.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/catch_powerup_color_bomb.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/catch_powerup_shot_speed.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/catch_powerup_wild.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/catch_powerup_lightning.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/catch_powerup_fireball.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/catch_gem.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/catch_coin.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/button_highlight.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/button_click.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/launch_sphere.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/collide_spheres_shot.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/collide_spheres_path.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/collapse_5.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/collapse_4.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/collapse_3.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/collapse_2.ogg )
+[ MainThread ] ...Releasing Sample( data/sound/collapse_1.ogg )
+[ MainThread ] 
+[ MainThread ] Shutting Down FMOD...
+[ MainThread ] ...Allocated Memory: 15728640
+[ MainThread ] ...Current Memory Usage: 90112
+[ MainThread ] ...Peak Memory Usage: 13706496
+[ MainThread ] ...FSOUND_Close(): Success!
+[ MainThread ] FMOD Terminated!
+[ MainThread ] 
+[ MainThread ] Ending Main Loop...
+[ MainThread ] 
+[ MainThread ] 
+[ MainThread ] Heap Memory:
+[ MainThread ] ...Main Memory Allocs:[805] Frees:[800] Overflow:[804]Peak:[331328] Largest:[32] Size:[320] Frag:[111.11] OVERFLOW
+[ MainThread ] ......C:\code\mumbojumbo\giza\code\game\mutex.cpp [51]  (64) EXT
+[ MainThread ] ......C:\code\mumbojumbo\giza\code\game\mutex.cpp [51]  (64) EXT
+[ MainThread ] ......C:\code\mumbojumbo\giza\code\game\mutex.cpp [51]  (64) EXT
+[ MainThread ] ......C:\code\mumbojumbo\giza\code\game\mutex.cpp [51]  (64) EXT
+[ MainThread ] ......C:\code\mumbojumbo\giza\code\game\mutex.cpp [51]  (64) EXT
+[ MainThread ] ...Image Memory Allocs:[289] Frees:[289] Overflow:[289]Peak:[6907968] Largest:[32] Size:[0] Frag:[0.00] OVERFLOW
+[ MainThread ] ...Graphics Memory Allocs:[2128] Frees:[2128] Overflow:[2128]Peak:[971520] Largest:[32] Size:[0] Frag:[0.00] OVERFLOW
+[ MainThread ] ...Sound Memory Allocs:[287] Frees:[287] Overflow:[287]Peak:[67360] Largest:[32] Size:[0] Frag:[0.00] OVERFLOW
+[ MainThread ] ...UI Memory Allocs:[4365] Frees:[4365] Overflow:[4365]Peak:[790304] Largest:[32] Size:[0] Frag:[0.00] OVERFLOW
+[ MainThread ] ...Game Memory Allocs:[9] Frees:[9] Overflow:[9]Peak:[111520] Largest:[32] Size:[0] Frag:[0.00] OVERFLOW
+[ MainThread ] ...Physics Entities Allocs:[33] Frees:[33] Overflow:[32]Peak:[2176] Largest:[32] Size:[0] Frag:[0.00] OVERFLOW
+[ MainThread ] Hunk Memory:
+[ MainThread ] ...Scene Graph Blt Pool Peak:[22752] Size:[0]
+[ MainThread ] ...Graphics Events Peak:[0] Size:[0]
+[ MainThread ] ...DX8 Command Stream Peak:[7648] Size:[0]
+[ MainThread ] ...Particle System Memory Peak:[942080] Size:[942080]
+[ MainThread ] ...Music Memory Peak:[0] Size:[0]
+[ MainThread ] ...3d Sound Memory Peak:[15728640] Size:[0]
+[ MainThread ] ...Physics Collisions Peak:[0] Size:[0]
+[ MainThread ] Memory: Total Memory Allocs[7916] Frees:[7911] Peak:[25883296] Size:[942400]
